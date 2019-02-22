@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+   
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    
+    <title>Marvel SPA</title>
+</head>
+<body onload="chargeCharacters()">
+    <aside class="aside" id="menu">
+        <img class="marvel-logo" src="img/414601.jpg" alt="">
+        <h2>SPA</h2>
+        <input type="search" name="search" id="search" placeholder="Buscar...">
+        <Select id="characters">
+            <option value="personaje">Personaje</option>
+        </Select>
+        <label>
+            Todos
+            <input type="radio" name="All" id="All">
+        </label>
+        <label>
+            Comics
+            <input type="radio" name="Comics" id="Comics">
+        </label>
+        <label>
+            Series
+            <input type="radio" name="Series" id="Series">
+        </label>
+    </aside>
+    <main class="main" id="items"></main>
+
+
+    <!-- JavaScript -->
+    <script src="main.js"></script>
+</body>
+</html>

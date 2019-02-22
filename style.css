@@ -1,0 +1,51 @@
+:root{
+    --primary-color: #831015;
+    --secondary-color:#D6D2D1;
+    background-image: url('img/bg.png');
+    background-position: -650px -500px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    display: flex;
+    --main-title: 'Anton', sans-serif;
+    font-family: var(--main-title);
+    color: var(--secondary-color);
+    
+}
+.aside,.main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+/* --------------MENU------------ */
+.marvel-logo{
+    max-width: 260px;
+    margin-top: 40px;
+}
+.aside h2{
+    font-size: 4em;
+    margin: 0;
+}
+.aside label{
+    margin: 10px 10px;
+}
+.aside input, .aside select{
+    width: 90%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+/* --------------CONTAINER------------ */
+.item{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    margin: 2em 0;
+}
+.comicImage{
+    max-width: 200px;
+}
